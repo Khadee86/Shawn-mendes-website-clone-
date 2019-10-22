@@ -1,0 +1,283 @@
+
+*{
+	box-sizing:border-box;
+	color:maroon;
+	
+	
+}
+
+html,body{
+	margin:0;
+	padding:0;
+	background-color:peachpuff;
+	
+}
+.nav ul{
+	margin:0;
+}
+.nav li{
+	display:inline;
+}
+.nav a{
+	display:inline-block;
+	padding:0.5em;
+	color:navajowhite;
+	text-decoration:none;
+}
+.nav a:hover{
+	background-color:gray;
+	opacity:0.4;
+}
+
+.main-nav{
+	text-align:center;
+	font-size:1.1em;
+	font-weight:lighter;
+	border-bottom:1px solid navajowhite;
+}
+.main-nav li{
+	padding:0 5%;
+}
+
+.main-header{
+	background-image:url(shawn.jpg);
+	background-size:cover;
+	background-color:salmon;
+	background-blend-mode:multiply;
+	padding-bottom:30px;
+	opacity:0.7;
+}
+.singer-name{
+	margin:0;
+	font-size:4em;
+	font-family:georgia;
+	font-weight:normal;
+	color:peachpuff;
+}
+.singer-name-large{
+	font-size:6em;
+}
+.content-section{
+	margin:1em;
+}
+.container{
+	max-width:1000px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+	background-color:;
+}
+.section-header{
+	font-family:georgia;
+	font-weight:normal;
+	text-align:center;
+	font-size:2.5em;
+}
+
+.career-image{
+	float:left;
+	margin:4px;
+	border-radius:50%;
+}
+.main-footer{
+	background-color:maroon;
+	opacity:0.85;
+}
+.main-footer-container{
+	display:flex;
+	align-items:center;
+}
+
+.main-footer-container ul{
+	flex-grow: 1;
+	text-align:end;
+	
+}
+
+.cart-header{
+	font-weight:bold;
+	font-size:1.2em;
+	color:brown;
+}
+.cart-column{
+	display:flex;
+	border-bottom:1px solid brown;
+	align-items:center;
+	margin-right:1.5em;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+.cart-row{
+	display:flex;
+	margin:1em;
+}
+.cart-column:last-child{
+	bottom-border:none;
+}
+.cart-item{
+	width:45%;
+}
+
+.cart-price{
+	width:20%;
+	font-size:1.2em;
+	padding-right:0.5em;
+}
+.cart-quantity{
+	width:35%;
+	padding-right:12em;
+	display:flex;
+}
+.cart-item-title{
+	margin-left:0.5em;
+	font-size:1.2em;
+	text-align:center;
+}
+
+.cart-item-image{
+	width:75px;
+	height:auto;
+	border-radius:20%;
+}
+.cart-quantity-input{
+	height:35px;
+	width:50px;
+	border-radius:5px;
+	padding:0;
+	border: 1px solid ;
+	text-align:center;
+	font-size:1.2em;
+	margin-right:25px;
+}
+.cart-row:last-child{
+	border-bottom: 1px solid brown;
+}
+.cart-row:last-child .cart-column{
+	border:none;
+}
+.cart-total{
+	text-align:end;
+	margin-top:10px;
+	margin-right:10px;
+	}
+.cart-total-title{
+	font-weight:bold;
+	font-size:1.5em;
+	margin-right:20px;
+}
+
+.bttn-purchase{
+	display:block;
+	margin-top:40px;
+	margin-bottom:80px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:1.7em;
+	
+}
+.bttn-danger{
+	color:peachpuff;
+	background-color:maroon;
+	border-radius:25%;
+	font-weight:bold;
+	margin:0.5em;
+	border:none;
+	opacity:0.85;
+}
+.bttn-danger:hover{
+	background-color:maroon;
+	opacity:0.6;
+}
+
+
+.bttn{
+	text-align:center;
+	vertical-align:middle;
+	padding:0.67em;
+	cursor:pointer;
+}
+
+.bttn-header{
+	margin:0.5em 15% 2em 15%;
+	color:peachpuff;
+	border: 2px solid peachpuff;
+	background-color:rgba(255,255,255,0.1);
+	font-size:1.5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+.bttn-header:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+
+.bttn-play{
+	border-radius:50%;
+	display:block;
+	font-size:4em;
+	padding:0;
+	width:100px;
+	height:100px;
+}
+.bttn-primary{
+	color:peachpuff;
+	background-color:maroon;
+	opacity:0.85;
+	border:none;
+	border-radius:0.35em;
+	font-weight:bold;
+}
+.bttn-primary:hover{
+	opacity:0.5;
+}
+
+.store-item{
+	margin:45px;
+}
+.store-item-title{
+	display:block;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:1em;
+	font-family:georgia;
+}
+.store-item-subtitle{
+	display:block;
+}
+.store-item-image{
+	height:500px;
+	background-size:cover;
+}
+.store-item-details{
+	padding:10px;
+}
+
+.tour-row{
+	border-bottom: 1px solid black;
+	padding-bottom: 1em;
+	margin:1em;
+}
+.tour-row:last-child{
+	border-bottom:none;
+}
+
+.tour-item{
+	display:inline-block;
+	padding-right:0.5em;
+}
+
+.tour-date{
+	font-weight:bold;
+	width:11%;
+}
+.tour-city{
+	width:24%;
+}
+.tour-arena{
+	width:19%;
+}
+
+.tour-bttn{
+	max-width:19%;
+}
+
+
